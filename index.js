@@ -1,4 +1,5 @@
 const filterList = document.querySelector('#filters')
+filterList.classList.add("new-category");
 filterList.innerHTML += `
     <select name="" id="">
         <option value="">Option 1</option>
